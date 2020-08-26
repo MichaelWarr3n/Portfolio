@@ -78,6 +78,11 @@ div.skillTile img {
     height: auto;
 }
 
+div.skillTile img:hover {
+    position: relative;
+    bottom: 10px;
+}
+
 h3.contac {
     text-align: center;
 }
@@ -86,6 +91,7 @@ h3.contac {
     display: flex;
     justify-content: space-around;
     font-weight: 700;
+    padding-bottom: 20px;
 }
 
 .contact span a {
@@ -404,7 +410,7 @@ h3.contac {
     padding: 0 50px;
     margin: 52px 0 0;
     float: right;
-    position: relative
+    position: relative;
 }
 
 .main-timeline .timeline-content:before {
