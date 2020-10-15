@@ -76,7 +76,17 @@ header .landing-page-text p span{
     min-width: auto;
 }
 
-.divider{
+.projectImage {
+    margin-bottom: 5px;
+}
+
+.modalScreenshot {
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+}
+
+.divider {
     height: 2px;
     width: 10%;
     min-width: 60px;
